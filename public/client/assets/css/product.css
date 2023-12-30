@@ -1,0 +1,41 @@
+.shop_area {
+   margin-top: 60px;
+   margin-bottom: 100px;
+}
+
+.shop_title {
+   margin-bottom: 20px;
+}
+
+.shop_title h1 {
+   color: #242424;
+   font-size: 33px;
+   text-transform: capitalize;
+   margin-bottom: 0;
+}
+
+.shop_toolbar_wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid #ddd;
+   padding: 8px 10px;
+}
+
+/* btn dropdown toolbar */
+.shop_toolbar_wrapper .btn.dropdown-toggle {
+   font-size: 1.5rem;
+}
+
+.page-item.active .page-link{
+   background-color: #242424;
+   border-color: #ccc;
+}
+
+.page-link{
+   color: #242424;
+}
+
+.page-link:hover{
+   color: #242424;
+}

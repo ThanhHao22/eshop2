@@ -1,0 +1,128 @@
+/*Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+   .btn-search {
+      width: 100%;
+      border: 1px solid #dbdbdb;
+      border-radius: 50px;
+      margin: 8px 18px;
+      height: 35px;
+   }
+
+   .search-input {
+      border: 1px solid #dbdbdb;
+      margin: 8px 18px 0;
+   }
+
+   .mini_cart{
+      position: fixed;
+      width: 100%;
+      top: 49px;
+      left: 0;
+      right: 0;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .carousel-indicators {
+      visibility: hidden;
+   }
+
+   .btn-search {
+      width: 100%;
+      border: 1px solid #dbdbdb;
+      border-radius: 50px;
+      margin: 8px 18px;
+      height: 35px;
+   }
+
+   .search-input {
+      border: 1px solid #dbdbdb;
+      margin: 8px 18px 0;
+      width: 100%;
+   }
+
+   .form-inline .form-control {
+      width: 100%;
+   }
+}
+
+@media (max-width: 767px) {
+   .wp-content {
+      padding: 0px;
+   }
+
+   .footer_border {
+      padding-top: 55px;
+   }
+
+   .trend_product {
+      padding-bottom: 60px;
+   }
+
+   .slider-banner {
+      margin: 0 0 30px;
+   }
+
+   .banner_thumb {
+      margin-top: 30px;
+      margin-bottom: 60px;
+   }
+
+   .product-area {
+      position: relative;
+      padding-bottom: 0;
+   }
+
+   .footer_top_container {
+      margin-bottom: 25px;
+   }
+
+   .navbar {
+      padding-left: 15px;
+      padding-right: 7px;
+   }
+
+   .footer_border {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   .form-search-respon {
+      display: none;
+   }
+
+   .about_content{
+      margin-bottom: 30px;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+   .wp-content {
+      padding: 0 20px;
+   }
+
+   .footer_border {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .navbar {
+      padding-left: 34px;
+      padding-right: 29px;
+   }
+
+   .form-search {
+      display: none;
+   }
+
+   .form-search-respon {
+      display: block;
+      margin-left: auto;
+   }
+
+   .about_content{
+      margin-bottom: 30px;
+   }
+   
+}

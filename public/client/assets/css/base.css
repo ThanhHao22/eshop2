@@ -1,0 +1,72 @@
+:root {
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --primary-color: #ff7d28;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* fix shadow form control */
+form .form-control:focus {
+    box-shadow: none;
+}
+
+/* fix shadow btn */
+.btn:focus {
+    box-shadow: none;
+}
+
+/* Breadcrumb */
+.border_bottom {
+    border-bottom: 1px solid #dddddd;
+}
+
+.breadcrumb {
+    border-top: 1px solid #dddddd;
+    background: none;
+    padding: 30px 0 0;
+    margin-bottom: 0;
+}
+
+.breadcrumb-list {
+    line-height: 1.5rem;
+    /* position: relative; */
+}
+
+.breadcrumb-list .breadcrumb-item {
+    /* margin-right: 5px; */
+    font-size: 1.4rem;
+}
+
+.breadcrumb-list .breadcrumb-item a {
+    color: #999;
+}
+
+.breadcrumb-list .breadcrumb-item:hover a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.breadcrumb-list .breadcrumb-item.active {
+    color: var(--primary-color);
+}

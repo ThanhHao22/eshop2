@@ -1,0 +1,78 @@
+.login_wrapper {
+   max-width: 500px;
+   margin: 60px auto;
+}
+
+.login_form_container {
+   background: #f3f3f3;
+   padding: 37px 40px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.login_text {
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.login_text h2 {
+   color: #333;
+   font-size: 30px;
+   text-transform: capitalize;
+}
+
+.login_text p {
+   color: #666;
+   font-size: 15px;
+}
+
+.login_form input {
+   background: #fff;
+   border: transparent;
+   border-radius: 3px;
+   border-radius: 0;
+   box-shadow: none;
+   color: #333;
+   font-size: 14px;
+   height: 40px;
+   margin-bottom: 20px;
+   padding-left: 10px;
+   width: 100%;
+}
+
+.form-action-button {
+   margin-top: 10px;
+   display: flex;
+   overflow: hidden;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.form-action-button .btn {
+   background-color: #000;
+   border: none;
+   color: #fff;
+   display: inline-block;
+   font-size: 14px;
+   height: 40px;
+   padding: 8px 48px;border-radius: 3px;
+   text-align: center;
+}
+
+.form-action-button .btn:hover {
+   background: var(--primary-color);
+}
+
+.account-option {
+   margin-top: 20px;
+}
+
+.toggle-btn a {
+   color: #333;
+   transition: all .3s ease;
+}
+
+.toggle-btn a:hover {
+   text-decoration: none;
+   color: #666;
+}

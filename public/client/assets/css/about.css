@@ -1,0 +1,46 @@
+
+
+
+/* About section */
+.wp_about {
+   padding-bottom: 60px;
+}
+
+.about_section {
+   padding-top: 60px;
+}
+
+.about_title {
+   font-weight: 500;
+   line-height: 30px;
+   text-transform: capitalize;
+   color: #242424;
+   font-size: 30px;
+   margin-bottom: 19px;
+}
+
+.about_info {
+   color: #747474;
+   font-size: 15px;
+   line-height: 30px;
+   margin-bottom: 22px;
+}
+
+.view_work a{
+   color: #242424;
+   border: 1px solid #242424;
+   height: 40px;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 18px;
+   padding: 10px 15px;
+   display: inline-block;
+   transition: all .3s ease;
+}
+
+.view_work a:hover {
+   background: #ff6a28;
+   border-color: #ff6a28;
+   color: #fff;
+   text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.faq_content_area{
+    padding: 50px 0;
+}
+
+.faq_content_wrapper h4 {
+    font-size: 18px;
+    color: #242424;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+.faq_content_wrapper p {
+    color: #747474;
+}
+
+.faq_content_wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+/* Accordion */
+.card-header .card-link{
+    color: #242424;
+    display: block;
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.card-body{
+    padding: 2.25rem;
+    color: #747474;
+}
